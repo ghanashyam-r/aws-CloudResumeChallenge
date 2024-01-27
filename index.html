@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Cloud Resume-Ghanashyam</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        #left-side {
+            flex: 1;
+            background-color: #9caef0; 
+            color: #333;
+            text-align: center;
+            padding: 2em;
+            overflow-y: auto;
+        }
+
+        #left-side img {
+            border-radius: 50%;
+            max-width: 150px;
+            margin-bottom: 1em;
+        }
+
+        #left-side h1,
+        #left-side h2,
+        #left-side h3 {
+            color: #333;
+        }
+
+        #left-side .icons a {
+            color: #333;
+            margin: 0 10px;
+        }
+
+        #right-side {
+            flex: 2;
+            overflow-y: auto;
+            padding: 2em;
+        }
+
+        section {
+            margin-bottom: 2em;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: #333;
+        }
+
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .project-item,
+        .certification-item {
+            margin-bottom: 2em;
+            padding: 1em;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .project-item:hover,
+        .certification-item:hover {
+            transform: scale(1.05);
+        }
+
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+
+        .skills-container div {
+            background-color: #5bc0de;
+            color: #fff;
+            padding: 0.5em;
+            border-radius: 10px;
+            transition: background-color 0.3s ease-in-out;
+            cursor: pointer;
+        }
+
+        .skills-container div:hover {
+            background-color: #428bca;
+        }
+
+        footer {
+            background-color: #ffa07a; /* Peach color */
+            color: #333;
+            text-align: center;
+            padding: 1em 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .icons a {
+            color: #333;
+            margin: 0 10px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-top: 10px;
+            background-color: #ffa07a; /* Peach color */
+            color: #333;
+            text-decoration: none;
+            border-radius: 10px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .button:hover {
+            background-color: #e6957e; /* Lighter Peach color on hover */
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Left Side - Profile Photo, Description, and Links -->
+    <div id="left-side">
+        <a href="#" class="image avatar"><img src="https://profilepicture-ghanashyam.s3.ap-south-1.amazonaws.com/profile.jpeg" alt="Profile Picture?" /></a>
+        <h1><strong>Ghanashyam R trial 2</strong></h1>
+        <p>Dual degree student pursuing BS in Data Science & Applications and BTech in Electrical & Electronics Engineering with a robust programming foundation, seeking opportunities to contribute technical expertise and collaborate on impactful projects in the IT industry.
+        </p>
+        
+        <div class="icons">
+            <a href="https://github.com/ghanashyam-r" class="icon brands fa-github"><span class="label">Github</span></a>
+            <a href="https://www.linkedin.com/in/ghanashyam-r-294132201/" class="icon brands fa-linkedin"><span
+                    class="label">Linkedin</span></a>
+            <a href="mailto:gshyamsr.com" class="icon solid fa-envelope"><span class="label">Email</span></a>
+        </div>
+        <div>
+            <p>Views: <span class="counter-number">Loading...</span></p>
+        </div>
+    </div>
+    
+    <!-- Right Side - Scrolling Content -->
+    <div id="right-side">
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <div class="skills-container">
+                <p>
+                    Programming and Web Development: Java, Python, C, SQLite, Flask, HTML/CSS, Bootstrap<br>
+                    Cloud and Infrastructure: AWS, Linux/Unix<br>
+                    Simulation and Modeling: Matlab-Simscape, Simulink
+                </p>
+                <!-- Add more skills as needed -->
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project-item">
+                <h3>Project Title 1</h3>
+                <p>Description of Project 1.</p>
+            </div>
+
+            <div class="project-item">
+                <h3>Project Title 2</h3>
+                <p>Description of Project 2.</p>
+            </div>
+
+            <!-- Add more project items as needed -->
+
+            <a href="#" class="button">View All Projects</a>
+
+        </section>
+        
+        <!-- Certifications -->
+        <section id="certifications">
+            <h2>Certifications</h2>
+
+            <div class="certification-item">
+                <h3>AWS Certified Cloud Practioner</h3>
+                <p>Description of Certification 1.</p>
+            </div>
+
+            <div class="certification-item">
+                <h3>Certification Title 2</h3>
+                <p>Description of Certification 2.</p>
+            </div>
+
+            <!-- Add more certification items as needed -->
+
+            <a href="#" class="button">View All Certifications</a>
+        </section>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+    <script>
+        const counter = document.querySelector(".counter-number");
+
+async function updateCounter() {
+    try {
+        let response = await fetch("https://ybanln43eqlj5ukft55wcgmeuq0rruta.lambda-url.ap-south-1.on.aws/");
+        let data = await response.json();
+        counter.innerHTML = `${data.views}`;
+    } catch (error) {
+        console.error("Error fetching views:", error);
+    }
+}
+
+// Update counter on page load
+updateCounter();
+    </script>
+</body>
+
+</html>
