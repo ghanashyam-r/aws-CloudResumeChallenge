@@ -42,6 +42,13 @@
             <article class="col-6 col-12-xsmall work-item">
                 <a href="https://docs.google.com/document/d/1rLW4zeIq9cOwglrntb_Ptz0rjn2bMIfpISVsQnmWIZ0/edit?usp=sharing" class="button-link">
                     <div class="image fit thumb"><img src="images/thumbs/01.png" alt="" /></div>
+                    <h3>Flask-Grocery Store</h3>
+                    <p>Created a fully functional multi-user e-commerce app facilitates grocery shopping with efficient product management.	</p>
+                </a>
+            </article>
+            <article class="col-6 col-12-xsmall work-item">
+                <a href="https://docs.google.com/document/d/1rLW4zeIq9cOwglrntb_Ptz0rjn2bMIfpISVsQnmWIZ0/edit?usp=sharing" class="button-link">
+                    <div class="image fit thumb"><img src="images/thumbs/01.png" alt="" /></div>
                     <h3>Cloud Resume Challenge</h3>
                     <p>Popular Cloud Adventure.</p>
                 </a>
@@ -80,7 +87,7 @@
 
     async function updateCounter() {
         try {
-            let response = await fetch("https://your-lambda-url.execute-api.ap-south-1.amazonaws.com/");
+            let response = await fetch("https://ybanln43eqlj5ukft55wcgmeuq0rruta.lambda-url.ap-south-1.on.aws/");
             let data = await response.json();
             counter.innerHTML = `${data.views}`;
         } catch (error) {
