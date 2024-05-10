@@ -407,6 +407,19 @@ article .icon {
   gap: 0.5rem;
   margin: 1rem;
 }
+.about-details-container {
+  display: flex;
+  justify-content: center; /* Align children elements horizontally */
+  align-items: center; /* Align children elements vertically */
+  gap: 20px; /* Add some space between the image and text */
+}
+
+.about-pic {
+  max-width: 100%; /* Limit the maximum width of the image */
+  max-height: 100%; /* Limit the maximum height of the image */
+  width: auto; /* Ensure the image maintains its aspect ratio */
+  height: auto; /* Ensure the image maintains its aspect ratio */
+}
 
 .contact-info-container p {
   font-size: larger;
