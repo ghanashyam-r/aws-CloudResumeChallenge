@@ -150,7 +150,7 @@ a:hover {
 
 section {
   padding-top: 4vh;
-  height: 96vh;
+  
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
@@ -304,8 +304,11 @@ section {
 }
 
 .section-container {
-  gap: 4rem;
-  height: 80%;
+  display: flex;
+  flex-direction: column; /* Change to column layout */
+  justify-content: center;
+  align-items: center;
+  gap: 4rem; /
 }
 
 .section__pic-container {
@@ -357,6 +360,8 @@ article .icon {
 
 #projects {
   position: relative;
+  margin-bottom: 4rem;
+  z-index: 1;
 }
 
 .color-container {
@@ -382,7 +387,9 @@ article .icon {
 /* CERTIFICATIONS SECTION */
 
 #certifications {
-  margin-top: 2rem; /* Add some space between Projects and Certifications */
+  min-height: 100vh;
+  z-index: 0;
+  margin-top: 4rem; /* Add some space between Projects and Certifications */
 }
 
 #certifications .about-details-container {
