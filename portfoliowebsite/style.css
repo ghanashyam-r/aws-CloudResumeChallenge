@@ -379,6 +379,37 @@ article .icon {
   color: black;
   border-color: rgb(163, 163, 163);
 }
+/* CERTIFICATIONS SECTION */
+
+#certifications {
+  margin-top: 2rem; /* Add some space between Projects and Certifications */
+}
+
+#certifications .about-details-container {
+  flex-direction: column; /* Display certifications vertically */
+}
+
+#certifications .about-containers {
+  gap: 2rem; /* Add some space between certification details */
+}
+
+#certifications .details-container {
+  background: white; /* Set background color */
+  border-radius: 2rem; /* Add border radius */
+  border: 0.1rem solid rgb(163, 163, 163); /* Add border */
+  padding: 1.5rem; /* Add padding */
+}
+
+#certifications h3 {
+  color: rgb(85, 85, 85); /* Set text color */
+  font-weight: 600; /* Set font weight */
+  font-size: 1.75rem; /* Set font size */
+}
+
+#certifications p {
+  color: rgb(85, 85, 85); /* Set text color */
+  font-size: 1.5rem; /* Set font size */
+}
 
 /* CONTACT */
 
