@@ -1,7 +1,7 @@
 Cloud Resume Challenge
 
 My portfolio website
-Website-https://ghanashyam-cloud.tech/
+Website-https://ghanashyam-cloud.tech/ (Temporarily Unavailable See the last line of the Readme File to see the working video)
 
 The Challenge :
 
@@ -27,5 +27,9 @@ Source Control and CI/CD:
 Version control was essential throughout the Cloud Resume Challenge, so I set up GitHub repositories for my frontend website code. Utilising GitHub Actions, I implemented CI/CD pipelines to automate the deployment process. This ensured seamless deployment and minimal downtime.
 
 ![CLoud Resume challenge (1)](https://github.com/ghanashyam-r/aws-CloudResumeChallenge/assets/138144872/f4064b6c-06f5-4f89-87e3-4053d3dbfb5d)
+
+
+https://github.com/user-attachments/assets/0b7934cb-7453-4210-af84-2e3c9580e58f
+
 
 
