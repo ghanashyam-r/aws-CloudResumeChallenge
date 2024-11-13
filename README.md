@@ -1,7 +1,7 @@
 Cloud Resume Challenge
 
 My portfolio website
-Website-https://ghanashyam-cloud.tech/ (Temporarily Full functionality Unavailable See the last line of the Readme File to see the working video)
+Website-https://ghanashyam-cloud.tech/ 
 
 The Challenge :
 
